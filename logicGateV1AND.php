@@ -20,7 +20,8 @@
         $y = 0;
     }
 
-    // cetak
+    // cetak Gerbang Logika AND
     echo "X1: $x1 X2: $x1 Y: $y"; 
+
 
 ?>
