@@ -5,10 +5,7 @@ $x = array(array(1,1),
            array(0,1),
            array(0,0));
 
-// bobot (weight)
-// sesuaikan kasus AND (w1 = 1, w2 = 1)
-//                  OR (w1 = 2, w2 = 2)
-//                  AND NOT (w1 = 2, w2 = -1)
+// bobot (weight), sesuaikan kasus AND (w1 = 1, w2 = 1), OR (w1 = 2, w2 = 2), AND NOT (w1 = 2, w2 = -1)
 $w = array(2, -1);
 
 echo " x1 x2  y\n";
@@ -36,5 +33,4 @@ for ($b = 0; $b < 4; $b++)
 }
 
 echo "=========\n"; 
-
 ?>
